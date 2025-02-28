@@ -13,7 +13,7 @@ import { UsersService } from './users/users.service';
       entities: [User],
       synchronize: true,
       ssl: false,
-      url: 'postgresql://postgres:chXmqQdXsCSCFekxDCRzXrmKooEDtYTI@switchyard.proxy.rlwy.net:18932/railway',
+      url: '',
     }),
     UsersModule,
   ],
